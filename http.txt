@@ -1,0 +1,25 @@
+gitHTTPS METHOD
+HTTP is designed to enable communication between clients and servers. it works as a request-response protocol between clients and servers,
+
+HTTP stands for hypertext protocol… In the HTTP method, the names are case sensitive which means they must be used in Upper-case….
+
+HTTP methods are
+
+GET
+POST
+PUT
+HEAD
+DELETE
+OPTIONS
+CONNECT
+TRACE
+PATCH.
+GET:- The GET method retrieves information from a given server using a URL. GET is widely implemented in HTML files. for making database queries that do not require any server update at the same time.
+POST:- POST this method sends data to the server. The data sent to the server with POST is stored in the request body of the HTTP request. examples;- file upload customers information.
+PUT:- This method replaces all current representatives of the target resources with the uploaded content. PUT is also used to send data to the server to create /update resources. The difference between PUT and POST is that PUT requests are “IDEMOPTENT”. that is calling the same PUT, request multiple times will always produce the same result.
+HEAD:-HEAD is the same as GET but transfers the states line and header. Section only in other words if GET/users return a list of users Head requests are used for checking What a GET request will return before actually making a list request.
+DELETE:- The DELETE method removes all current representations of the target resource given by a URL. it deletes specified resources.
+CONNECT:- The CONNECT method is used by the client to establish a network connection to a web server over HTTP.. CONNECT method is used to start a two-way communication it like a tunnel to the server identified by a given URL.
+OPTIONS:- This method describes the communication options to the target resources. HTTP uses the OPTIONS body to make more detailed queries on the server of the request. URL is not an asterisk the OPTIONS request applies only to the options that are available when communicating with the resources.
+TRACE:- The TRACE method is used to invoke a remote application layer loopback of the request message. TRACE allows the client to see what is been received at the other end of the request chain and use that data for testing or diagnostic information. TRACE performs a message loop-back test along the path to the target resources.
+PATCH:- A PATCH is considered a set of instructions on how to modify a resource. Contrast this with PUT; which is a complete representation of a resource. A PATCH is not necessarily idempotent, although it can be. contrast this with PUT; which is always idempotent. The word “idempotent” means that any number of repeated, identical requests will leave the resource in the same state. For example, if an auto-incrementing counter field is an integral part of the resource, then a PUT will naturally overwrite it (since it overwrites everything), but not necessarily so far PATCH.
